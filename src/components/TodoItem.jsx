@@ -1,5 +1,6 @@
 
-function TodoItem( { name, isCompleted}) {
+function TodoItem(props) {
+  const { name, isCompleted } = props
   return (
     <li
       className="list-group-item d-flex justify-content-between align-items-center"
